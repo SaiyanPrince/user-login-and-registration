@@ -1,24 +1,24 @@
 # user-login-and-registration
 *User login and registration through email*
 
-**Step 1
+**Step 1**
 
 + Download all the sample files.
 
 
-**Step 2
+**Step 2**
 
 + pip install the requirements.
 
 
-**Step 3
+**Step 3**
 
 + Open your prompt and navigate to the directory where the Python and HTML file located
 
 + then type in '''python server.py''' to run your server
 
 
-**Step 4
+**Step 4**
 
 + Open a web browser and type localhost:8888. This will run the basicRequestHandler class
 
