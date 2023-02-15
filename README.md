@@ -15,7 +15,7 @@
 
 + Open your prompt and navigate to the directory where the Python and HTML file located
 
-+ then type in '''python server.py''' to run your server
++ then type in `python server.py` to run your server
 
 
 **Step 4**
