@@ -1,10 +1,10 @@
 import tornado.ioloop
 import tornado.web
 import tornado.escape
+
 from handlers.main_handler import MainHandler
 from handlers.login_handler import LoginHandler
 from handlers.register_handler import RegisterHandler
-from models import users
 
 # Define the email server settings
 EMAIL_SERVER = 'smtp.gmail.com'
@@ -26,7 +26,6 @@ class Application(tornado.web.Application):
             'static_path': 'static',
             'debug': True
         }
-        self.db = users.DB()
         super(Application, self).__init__(handlers, **settings)
 
 if __name__ == '__main__':
